@@ -4,17 +4,14 @@ This project analyzes the results of an A/B test conducted by the Global Benefit
 
 # Project Components
 
-__1. Data Modeling__  
-Created a relational schema joining three core datasets — Account, Quote, and Policy — to represent the customer funnel from account creation through policy purchase.  
+__1. Data Modeling:__ Created a relational schema joining three core datasets — Account, Quote, and Policy — to represent the customer funnel from account creation through policy purchase.  
 Established relationships via `account_id` and `quote_id` keys.
 
-__2. Data Engineering__  
-Built SQL table schemas with correct data types (numeric, boolean, datetime).  
+__2. Data Engineering:__ Built SQL table schemas with correct data types (numeric, boolean, datetime).  
 Implemented joins and filters to align Test vs. Control groups, with eligibility logic (`big_bill_eligible`).  
 Validated data integrity and handled missing values and outliers.
 
-__3. Data Analysis__  
-Performed SQL-based analysis to compute key business metrics:
+__3. Data Analysis:__ Performed SQL-based analysis to compute key business metrics:
 - Quote → Policy conversion rate 
 
 - Collected premium per policy
