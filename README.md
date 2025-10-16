@@ -1,5 +1,3 @@
-# Insurance-Analysis-
-
 # Overview
 
 This project analyzes the results of an A/B test conducted by the Global Benefits Insurance Company (GBIC) to evaluate the impact of a new “Big Bills” payment method on customer behavior and business outcomes. The analysis focuses on conversion, premium collection, loss ratios, and cancellation rates to determine whether the 1.5× first-month payment plan performs better than the existing 1/6 upfront method.
